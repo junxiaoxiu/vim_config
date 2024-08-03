@@ -1,0 +1,34 @@
+set ignorecase
+set number relativenumber      " 相对行号
+set nohlsearch
+set incsearch                             " 逐字符高亮
+set clipboard=unnamed           " 使用系统剪切行
+set autoindent                           "自动缩进
+set cursorline
+" set easymotion
+
+let mapleader=" "
+
+" 跳转到行首和行尾
+:nnoremap H^
+:nnoremap L A<esc>
+
+:vnoremap H ^
+:vnoremap L g_
+
+" jj用于退出
+":inoremap jj <esc>
+
+"大写JK，用于切换标签页"
+:nnoremap K :vsc Window.NextTab<CR>
+:nnoremap J :vsc Window.PreviousTab<CR>
+
+"代码注释"
+:nnoremap <c-/> :vsc Edit.ToggleLineComment<CR>
+:vnoremap <c-/> :vsc Edit.ToggleLineComment<CR>
+
+"快速查看方法定义 
+:nnoremap gh :vsc Edit.QuickInfo<CR>
+
+"跳转到定义
+:nnoremap gd :vsc <c-]>zz

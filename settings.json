@@ -1,0 +1,194 @@
+{
+    "editor.mouseWheelZoom": true,
+    "code-runner.runInTerminal": true,
+    "files.encoding": "gb18030",
+    "files.autoGuessEncoding": true,
+    "explorer.confirmDelete": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "C:\\Program Files\\Java\\jdk1.8.0_281",
+            "default": true
+        }
+    ],
+    "C_Cpp.intelliSenseCacheSize": 512,
+    "editor.fontWeight": "normal",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o D:/Cpp/C++/build/$fileNameWithoutExt && D:/Cpp/C++/build/$dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runhaskell",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "remote.SSH.remotePlatform": {
+        "loaclhost": "linux",
+        "pushijie-virtual-machine": "linux",
+        "CentOS7": "linux",
+        "Ubuntu": "linux",
+        "192.168.246.131": "linux",
+        "Ubuntu16.02": "linux"
+    },
+    "C_Cpp.files.exclude": {
+        "**/.vscode": true,
+        "**/.vs": true
+    },
+    "cmake.configureOnOpen": true,
+    "git.path": "D:\\Git\\bin\\git.exe",
+    "git.suggestSmartCommit": false,
+    "KeilAssistant.MDK.Uv4Path": "D:\\Keil_v5\\UV4\\UV4.exe",
+    "cmake.showOptionsMovedNotification": false,
+    "security.workspace.trust.enabled": false,
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.path": "c:\\Users\\admin\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\17.0.3\\clangd_17.0.3\\bin\\clangd.exe",
+    "clangd.inactiveRegions.useBackgroundHighlight": true,
+    "clangd.fallbackFlags": [
+        "--std=c++17"
+    ],
+    "python.languageServer": "Pylance",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+
+    // vim
+    "vim.leader": "<space>",
+    "editor.lineNumbers": "relative",
+    "vim.useSystemClipboard": true,
+    "vim.incsearch": true,
+    "vim.surround": true,
+    "vim.sneak": false,
+    "vim.hlsearch": true,
+    "vim.ignorecase": true,
+    "vim.easymotion": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before":["j", "j"],
+            "after":["<Esc>"]
+        },
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            // switch to the left tab
+            "before": ["J"],
+            "after": [ "g","T" ]
+        },
+        {
+            // switch to the right tab
+            "before": ["K"],
+            "after": [ "g","t" ]
+        },
+        {
+            "before": [ "g","i" ],
+            "commands": [
+                "workbench.action.splitEditor",
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before" : ["v", "s" ],
+            "commands" : [":vs"]
+        },
+        {
+            "before" : ["s","p"],
+            "commands" : [":sp"]
+        },        
+        // {
+        //     "before": ["<space>"],
+        //     "commands" : ["whichkey.show"]
+        // }
+    ],
+    // "vim.visualModeKeyBindingsNonRecursive": [
+    //     {
+    //         "before": ["<space>"],
+    //         "commands" : ["whichkey.show"]
+    //     }
+    // ],
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.colorTheme": "One Dark Pro",
+
+    //which key
+    // "whichkey.bindings": [
+    //     // code runner
+    //     {
+    //         "key" : "r",
+    //         "name" : "+RunCode",
+    //         "type" : "bindings",
+    //         "bindings" : [
+    //             {
+    //                 "key" : "r",
+    //                 "name" : "Run Code",
+    //                 "type" : "command",
+    //                 "command" : "code-runner.run"
+    //             },
+    //             {
+    //                 "key" : "s",
+    //                 "name" : "Stop",
+    //                 "type" : "command",
+    //                 "command" : "code-runner.stop"
+    //             },
+    //         ]
+    //     }
+
+    // ],
+    "editor.fontFamily": "Consolas, 'JetBrains Mono', monospace"
+}

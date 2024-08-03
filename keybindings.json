@@ -1,0 +1,48 @@
+// 将键绑定放在此文件中以覆盖默认值
+[
+    {
+        "key": "ctrl+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetVisible && suggestWidgetMultipleSuggestions && textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetVisible && suggestWidgetMultipleSuggestions && textInputFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "name": "Open explorer",
+        "command": "workbench.view.explorer",
+    },
+    {
+        "key": "ctrl+t",
+        "name": "Toggle terminal",
+        "command": "workbench.action.terminal.toggleTerminal",
+    },
+    {
+        "key": "ctrl+n",
+        "name": "Toggle sideBar",
+        "command": "workbench.action.toggleSidebarVisibility",
+    }, 
+    {
+        "key": "ctrl+h",
+        "name": "Navigate left",
+        "command": "workbench.action.navigateLeft",
+    }, 
+    {
+        "key": "ctrl+j",
+        "name": "Navigate down",
+        "command": "workbench.action.navigateDown",
+    }, 
+    {
+        "key": "ctrl+k",
+        "name": "Navigate down",
+        "command": "workbench.action.navigateUp",
+    }, 
+    {
+        "key": "ctrl+l",
+        "name": "Navigate down",
+        "command": "workbench.action.navigateRight",
+    }, 
+]
